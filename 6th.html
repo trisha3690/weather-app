@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <style>
+       .t1
+       {
+         padding: 15px, 20px;
+         box-sizing:border-box;
+         width:50%;
+         margin:10px 0;
+         border:2px solid #ccc;
+         border-radius:5px;
+         font-size:15px;
+         background-image:url('image/download.png');
+         background-position:10px 10px;
+         padding:12px 20px 12px 40px;
+         transition:width 0.4s ease-in-out;
+         background-repeat:no-repeat;
+       }
+       input[type=text]
+       {
+         padding: 15px, 20px;
+         box-sizing:border-box;
+         width:50%;
+         margin:10px 0;
+         border:2px solid #ccc;
+         border-radius:5px;
+         font-size:15px;
+       }
+      .b1
+      {
+        background-color:#4CAF50;
+        border:2px;
+        padding: 20px 40px;
+        margin:4px 2px;
+        cursor:pointer;
+        text-decoration:none;
+      }
+      select
+      {
+        width:50%;
+        padding:10px 15px;
+        border-radius:5px;
+        background-color:#f2f2f2;
+        border:box;
+      }
+      textarea
+      {
+        width:45%;
+        background-color:#f4f4f4;
+        height:100px;
+        border:2px solid #990000;
+        border-radius:5px;
+        padding:10px 15px;
+        font-size:16px; 
+        resize:none;
+      }
+    </style>
+  </head>
+  <body>
+     <form action="">
+       <label for="uname">User Id</label>
+       <input type="text" id="uname" value="" placeholder="Partha Sunny"> <br><br>
+       <label for="passw">Password</label>
+       <input type="text" id="passw" value="" placeholder="Ghosh leone"><br><br>
+       <label>Enter the City</label>
+       <select id="city" name="city">
+          <option value="kol">Kolkata</option>
+          <option value="del">Delhi</option>
+          <option value="che">Chennai</option>
+       </select>
+       <br><br>
+       <label>Enter your Current Address</label><br><br>
+       <textarea placeholder="Type your Address"></textarea>
+       <br><br>
+       <input type="text" class="t1" name="search" placeholder="search anything">
+       <br><br>
+       <button class="b1">Button</button>
+       <button class="b1">Submit</button>
+       <button class="b1">Reset</button>
+     </form>
+  </body>
+</html>
